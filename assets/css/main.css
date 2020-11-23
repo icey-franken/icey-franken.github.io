@@ -2848,7 +2848,8 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
-		@media screen and (max-width: 480px) {
+			/* !!! footer */
+		@media screen and (max-width: 490px) {
 
 			ul.menu > li {
 				border-left: 0;
