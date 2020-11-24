@@ -10,6 +10,6 @@ function copyClick() {
 	mockInput.style.left = "0px";
 	mockInput.select();
 	document.execCommand("Copy");
-	alert(copyText + " copied to clipboard!");
+	// alert(copyText + " copied to clipboard!");
 	mockInput.parentNode.removeChild(mockInput);
 }
