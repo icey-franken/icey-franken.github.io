@@ -13,7 +13,6 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/footer.css" />
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
@@ -262,8 +261,10 @@
 										</li> -->
                 <li>
                   <h3>Email</h3>
-									<a href="mailto:finken.isaac@gmail.com" style='border-bottom-color: transparent'
-									target='_blank'
+                  <a
+                    href="mailto:finken.isaac@gmail.com"
+                    style="border-bottom-color: transparent"
+                    target="_blank"
                     >finken.isaac@gmail.com</a
                   >
                 </li>
@@ -277,8 +278,8 @@
                     <li>
                       <a
                         href="https://www.linkedin.com/in/isaac-finken-1bb09447/"
-												title="LinkedIn"
-												target='_blank'
+                        title="LinkedIn"
+                        target="_blank"
                         class="icon brands fa-linkedin-in"
                         ><span class="label">LinkedIn</span></a
                       >
@@ -286,8 +287,8 @@
                     <li>
                       <a
                         href="https://angel.co/u/isaac-finken"
-												title="AngelList"
-												target='_blank'
+                        title="AngelList"
+                        target="_blank"
                         class="icon brands fa-angellist"
                         ><span class="label">AngelList</span></a
                       >
@@ -295,8 +296,8 @@
                     <li>
                       <a
                         href="https://github.com/icey-franken"
-												title="GitHub"
-												target='_blank'
+                        title="GitHub"
+                        target="_blank"
                         class="icon brands fa-github"
                         ><span class="label">GitHub</span></a
                       >
@@ -304,8 +305,8 @@
                     <li>
                       <a
                         href="https://www.facebook.com/isaac.finken/"
-												title="Facebook"
-												target='_blank'
+                        title="Facebook"
+                        target="_blank"
                         class="icon brands fa-facebook-f"
                         ><span class="label">Facebook</span></a
                       >
@@ -313,8 +314,8 @@
                     <li>
                       <a
                         href="https://www.instagram.com/icey_franken/"
-												title="Instagram"
-												target='_blank'
+                        title="Instagram"
+                        target="_blank"
                         class="icon brands fa-instagram"
                         ><span class="label">Instagram</span></a
                       >
@@ -331,67 +332,82 @@
     <!-- Footer -->
     <footer id="footer" class="wrapper style1-alt">
       <div class="inner">
-            <ul class="menu">
-              <li>&copy; Isaac Finken. All rights reserved.</li>
-              <!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
-              <!-- </ul> -->
-              <!-- kicker - does class of icons really matter for these guys? Worst case I can remove default classes and style it myself with flexbox -->
-
-              <li>
-                <ul
-                  class="icons"
-                  style="
-                    font-size: 16px;
-                    /* padding-right: 12px; */
-                    margin-bottom: inherit;
-                  "
+        <ul class="menu">
+          <li>&copy; Isaac Finken. All rights reserved.</li>
+          <li>
+            <a
+              style="border-bottom-color: transparent; cursor: pointer"
+              onclick="copyClick()"
+              id="phone_num"
+              title="Click to copy phone number"
+              >(612) 325-8500</a
+            >
+          </li>
+          <li>
+            <a
+              href="mailto:finken.isaac@gmail.com"
+              style="border-bottom-color: transparent"
+              target="_blank"
+              >finken.isaac@gmail.com</a
+            >
+          </li>
+          <li>
+            <ul
+              class="icons"
+              style="
+                font-size: 16px;
+                /* padding-right: 12px; */
+                margin-bottom: inherit;
+              "
+            >
+              <li style="padding-right: 1.5em">
+                &nbsp;<a
+                  href="https://www.linkedin.com/in/isaac-finken-1bb09447/"
+                  title="LinkedIn"
+                  target="_blank"
+                  class="icon brands fa-linkedin-in"
+                  ><span class="label">LinkedIn</span></a
                 >
-                  <li style='padding-right:1.5em'>
-                    &nbsp;<a
-                      href="https://www.linkedin.com/in/isaac-finken-1bb09447/"
-											title="LinkedIn"
-											target='_blank'
-                      class="icon brands fa-linkedin-in"
-                      ><span class="label">LinkedIn</span></a
-                    >
-                  </li>
-                  <li style='padding-right:1.5em'>
-                    <a
-                      href="https://angel.co/u/isaac-finken"
-                      title="AngelList"												target='_blank'
-                      class="icon brands fa-angellist"
-                      ><span class="label">AngelList</span></a
-                    >
-                  </li>
-                  <li style='padding-right:1.5em'>
-                    <a
-                      href="https://github.com/icey-franken"
-                      title="GitHub"												target='_blank'
-                      class="icon brands fa-github"
-                      ><span class="label">GitHub</span></a
-                    >
-                  </li>
-                  <li style='padding-right:1.5em'>
-                    <a
-                      href="https://www.facebook.com/isaac.finken/"
-                      title="Facebook"												target='_blank'
-                      class="icon brands fa-facebook-f"
-                      ><span class="label">Facebook</span></a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.instagram.com/icey_franken/"
-                      title="Instagram"												target='_blank'
-                      class="icon brands fa-instagram"
-                      ><span class="label">Instagram</span></a
-                    >
-                  </li>
-                </ul>
+              </li>
+              <li style="padding-right: 1.5em">
+                <a
+                  href="https://angel.co/u/isaac-finken"
+                  title="AngelList"
+                  target="_blank"
+                  class="icon brands fa-angellist"
+                  ><span class="label">AngelList</span></a
+                >
+              </li>
+              <li style="padding-right: 1.5em">
+                <a
+                  href="https://github.com/icey-franken"
+                  title="GitHub"
+                  target="_blank"
+                  class="icon brands fa-github"
+                  ><span class="label">GitHub</span></a
+                >
+              </li>
+              <li style="padding-right: 1.5em">
+                <a
+                  href="https://www.facebook.com/isaac.finken/"
+                  title="Facebook"
+                  target="_blank"
+                  class="icon brands fa-facebook-f"
+                  ><span class="label">Facebook</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/icey_franken/"
+                  title="Instagram"
+                  target="_blank"
+                  class="icon brands fa-instagram"
+                  ><span class="label">Instagram</span></a
+                >
               </li>
             </ul>
-          <!-- </div> -->
-        <!-- </div>-->
+          </li>
+        </ul>
       </div>
     </footer>
 
@@ -403,5 +419,22 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      function copyClick() {
+				const copyText = document.getElementById("phone_num").innerHTML;
+        const mockInput = document.createElement("input");
+        document.body.appendChild(mockInput);
+        mockInput.type = "text";
+        mockInput.value = copyText;
+        mockInput.style.opacity = 0;
+        mockInput.style.position = "absolute";
+        mockInput.style.top = "0px";
+        mockInput.style.left = "0px";
+        mockInput.select();
+        document.execCommand("Copy");
+        alert(copyText + " copied to clipboard!");
+        mockInput.parentNode.removeChild(mockInput);
+      }
+    </script>
   </body>
 </html>
