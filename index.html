@@ -25,10 +25,10 @@
         <nav>
           <ul>
             <li><a href="#intro">Welcome</a></li>
-            <li><a href="#one">Who I am (projects?)</a></li>
+            <li><a href="#one">Projects</a></li>
             <li><a href="#two">What I do (resume?)</a></li>
             <li>
-              <a href="#three">Get in touch (add contact links to footer?)</a>
+              <a href="#three">Get in touch</a>
             </li>
           </ul>
         </nav>
@@ -113,7 +113,8 @@
               <p>
                 While(single): was inspired by OkCupid.com. Photo uploads made
                 possible with AWS. Front-end built with React Hooks; back-end
-                built with Flask, SQLAlchemy, and PostgreSQL.
+                built with Flask, SQLAlchemy, and PostgreSQL. Amazon S3 used for
+                photo uploads.
               </p>
               <ul class="actions">
                 <li>
@@ -138,7 +139,8 @@
                 Destructables is a clone of instructables.com, a how-to website
                 with instructions for anything you can imagine. Destructables
                 was built with Vanilla JavaScript on the front-end and Express,
-                Sequelize, and PostgreSQL on the back-end.
+                Sequelize, and PostgreSQL on the back-end. AWS used for photo
+                uploads.
               </p>
               <ul class="actions">
                 <li>
@@ -339,7 +341,7 @@
               style="border-bottom-color: transparent; cursor: pointer"
               onclick="copyClick()"
               id="phone_num"
-              title="Click to copy phone number"
+              title="Click to copy my phone number"
               >(612) 325-8500</a
             >
           </li>
@@ -348,6 +350,7 @@
               href="mailto:finken.isaac@gmail.com"
               style="border-bottom-color: transparent"
               target="_blank"
+              title="Click to send me an email"
               >finken.isaac@gmail.com</a
             >
           </li>
@@ -419,22 +422,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-    <script>
-      function copyClick() {
-				const copyText = document.getElementById("phone_num").innerHTML;
-        const mockInput = document.createElement("input");
-        document.body.appendChild(mockInput);
-        mockInput.type = "text";
-        mockInput.value = copyText;
-        mockInput.style.opacity = 0;
-        mockInput.style.position = "absolute";
-        mockInput.style.top = "0px";
-        mockInput.style.left = "0px";
-        mockInput.select();
-        document.execCommand("Copy");
-        alert(copyText + " copied to clipboard!");
-        mockInput.parentNode.removeChild(mockInput);
-      }
-    </script>
+    <script src="assets/js/copyClick.js"></script>
   </body>
 </html>

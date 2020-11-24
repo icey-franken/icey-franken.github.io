@@ -12,7 +12,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
-		<link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
@@ -102,7 +102,80 @@
       <div class="inner">
         <ul class="menu">
           <li>&copy; Isaac Finken. All rights reserved.</li>
-          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+          <li>
+            <a
+              style="border-bottom-color: transparent; cursor: pointer"
+              onclick="copyClick()"
+              id="phone_num"
+              title="Click to copy my phone number"
+              >(612) 325-8500</a
+            >
+          </li>
+          <li>
+            <a
+              href="mailto:finken.isaac@gmail.com"
+              style="border-bottom-color: transparent"
+              target="_blank"
+              title="Click to send me an email"
+              >finken.isaac@gmail.com</a
+            >
+          </li>
+          <li>
+            <ul
+              class="icons"
+              style="
+                font-size: 16px;
+                /* padding-right: 12px; */
+                margin-bottom: inherit;
+              "
+            >
+              <li style="padding-right: 1.5em">
+                &nbsp;<a
+                  href="https://www.linkedin.com/in/isaac-finken-1bb09447/"
+                  title="LinkedIn"
+                  target="_blank"
+                  class="icon brands fa-linkedin-in"
+                  ><span class="label">LinkedIn</span></a
+                >
+              </li>
+              <li style="padding-right: 1.5em">
+                <a
+                  href="https://angel.co/u/isaac-finken"
+                  title="AngelList"
+                  target="_blank"
+                  class="icon brands fa-angellist"
+                  ><span class="label">AngelList</span></a
+                >
+              </li>
+              <li style="padding-right: 1.5em">
+                <a
+                  href="https://github.com/icey-franken"
+                  title="GitHub"
+                  target="_blank"
+                  class="icon brands fa-github"
+                  ><span class="label">GitHub</span></a
+                >
+              </li>
+              <li style="padding-right: 1.5em">
+                <a
+                  href="https://www.facebook.com/isaac.finken/"
+                  title="Facebook"
+                  target="_blank"
+                  class="icon brands fa-facebook-f"
+                  ><span class="label">Facebook</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/icey_franken/"
+                  title="Instagram"
+                  target="_blank"
+                  class="icon brands fa-instagram"
+                  ><span class="label">Instagram</span></a
+                >
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
     </footer>
@@ -115,5 +188,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/copyClick.js"></script>
   </body>
 </html>
