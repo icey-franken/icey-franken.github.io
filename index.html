@@ -40,7 +40,10 @@
       <!-- Intro -->
       <section id="intro" class="wrapper style1 fullscreen fade-up">
         <div class="inner">
-          <h1>Isaac Finken</h1>
+					<h1>Isaac Finken</h1>
+					<p>add skill icons - same line as name?</p>
+					<p>add photo - use split div for l/r?</p>
+					<p>add powerlifting/fighting baloney to make me human?</p>
           <p>Software engineer.</p>
           <p>Curious tinkerer.</p>
           <p>Dedicated problem solver.</p>
@@ -59,13 +62,8 @@
       <!-- One -->
       <section id="one" class="wrapper style2 spotlights">
         <section>
-          <a
-            href="https://fruitfall.herokuapp.com/"
-            target="_blank"
-            title="Click to checkout the live FruitFall app."
-            class="image"
-            ><img src="images/pic01.jpg" alt="" data-position="center center"
-          /></a>
+					<!-- make smaller by wrapping in div with class='image' if desired -->
+					<img class='image' src="images/fruitfall.png" alt="" data-position="center center"/>
           <div class="content">
             <div class="inner">
               <h2>FruitFall</h2>
@@ -81,13 +79,8 @@
           </div>
         </section>
         <section>
-          <a
-            href="https://stronklifts.herokuapp.com/"
-            target="_blank"
-            title="Click to checkout the live Stronklifts app."
-            class="image"
-            ><img src="images/pic02.jpg" alt="" data-position="top center"
-          /></a>
+					<img class='image' src="images/pic02.jpg" alt="" data-position="top center"
+          />
           <div class="content">
             <div class="inner">
               <h2>Stronklifts</h2>
@@ -105,13 +98,8 @@
           </div>
         </section>
         <section>
-          <a
-            href="https://whilesingle.herokuapp.com/"
-            target="_blank"
-            title="Click to checkout the live While(single): app."
-            class="image"
-            ><img src="images/pic03.jpg" alt="" data-position="25% 25%"
-          /></a>
+         <img class='image' src="images/pic03.jpg" alt="" data-position="25% 25%"
+          />
           <div class="content">
             <div class="inner">
               <h2>While(single):</h2>
@@ -130,13 +118,8 @@
           </div>
         </section>
         <section>
-          <a
-            href="https://destructables-app.herokuapp.com/graph"
-            target="_blank"
-            title="Click to checkout the live Destructables app."
-            class="image"
-            ><img src="images/pic01.jpg" alt="" data-position="center center"
-          /></a>
+          <img class='image' src="images/destructables.png" alt="" data-position="center center"
+          />
           <div class="content">
             <div class="inner">
               <h2>Destructables</h2>
@@ -379,7 +362,7 @@
         <ul class="icons">
           <li>&copy; Isaac Finken. All rights reserved.</li>
           <li>
-            p:
+            <span style='font-weight:bold;'>t : </span>
             <a
               style="border-bottom-color: transparent; cursor: pointer"
               onclick="copyClick()"
@@ -389,7 +372,7 @@
             >
           </li>
           <li>
-            e:
+            <span style='font-weight:bold;'>e : </span>
             <a
               href="mailto:finken.isaac@gmail.com"
               style="border-bottom-color: transparent"
