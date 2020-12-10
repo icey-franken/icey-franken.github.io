@@ -1,0 +1,16 @@
+.about-icon__cont {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.about-icon {
+  background: rgba(255, 255, 255, 0.55);
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+	align-items: center;
+	margin: 6px;
+}
