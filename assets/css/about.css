@@ -1,6 +1,8 @@
 .about-icon__cont {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 12px auto;
 }
 
 .about-icon {
@@ -13,6 +15,14 @@
   align-items: center;
   margin: 6px;
   font-size: 50px;
+}
+
+.about-icon--small {
+  font-size: 44px;
+}
+
+.about-icon--large {
+  font-size: 56px;
 }
 
 .about-icon--smaller {
@@ -29,4 +39,11 @@
   position: relative;
   left: 11px;
   bottom: 2px;
+}
+
+.about-image {
+  border-radius: 50%;
+  margin-left: auto;
+	margin-right: auto;
+  display: block;
 }
