@@ -1,7 +1,6 @@
 .about-icon__cont {
-	display: flex;
-	flex-wrap: wrap;
-
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .about-icon {
@@ -11,6 +10,23 @@
   border-radius: 50%;
   display: flex;
   justify-content: center;
-	align-items: center;
-	margin: 6px;
+  align-items: center;
+  margin: 6px;
+  font-size: 50px;
+}
+
+.about-icon--smaller {
+  font-size: 40px;
+}
+
+.about-icon--redux-cont {
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
+.about-icon--redux {
+  position: relative;
+  left: 11px;
+  bottom: 2px;
 }
